@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact-us</title>
+</head>
+<body>
+        <div class="container">
+            <div class="card">
+                <h1>Contact Us</h1>
+                <p>If you have any question about DiGiTuTe. Please fill the form below. We will contact you within 24 hours.</p>
+            </div>
+            <div class="divider contact-us-form"></div>
+            <div class="main-form">
+                <label for="Name">Full Name<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="name" required placeholder="write your name" value="">
+                
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" name="email" placeholder="Enter your email" value="">
+                
+                <label for="phone">Phone Number<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="phone" required placeholder="Enter phone no" value="">
+                
+                <label for="massage">Massage<span class="text-danger">*</span></label>
+                <textarea name="massage" id="type"  placeholder="what's your query? Describe it here"></textarea>
+
+                <input type="submit" class="btn" value="send massage">
+            </div>
+        </div>
+        
+</body>
+</html>
